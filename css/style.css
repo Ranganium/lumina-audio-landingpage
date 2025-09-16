@@ -1,3 +1,27 @@
+.root {
+  --primary-color: ;
+  --secondary-color: #333;
+  --white: #fff;
+  --light-grey: #eee;
+
+    /* Typografi */
+  --font-family:'inter', Arial, sans-serif;
+  --font-size-small: 13px;
+  --font-size-base: 16px;
+  --font-size-medium: 18px;
+  --font-size-large: 20px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 28px;
+  --font-size-hero: 4.5rem;
+  --font-size-hero-tablet: 3rem;
+  --font-size-hero-mobile: 2.5rem;
+
+  /* Font weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
 .abel-regular {
   font-family: "Abel", sans-serif;
   font-weight: 400;
@@ -5,7 +29,7 @@
 }
 
 h1 {
-    font-family: Lato;
+    font-family: "Abel";
     font-size: 80px;
     font-style: normal;
 }
