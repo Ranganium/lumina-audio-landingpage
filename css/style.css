@@ -1,21 +1,29 @@
-
+.root {
+  --havre-color: #fff9f3;
+  --white-color: white;
+  --logo-pink-color: #dea9a9;
+}
+/* Typografier */
 h1 {
-  font-family: Abel;
-  font-size: 96rem;
-  color: blue;
-}
-h2 {
-  font-family: Lato;
-  font-size: 80rem;
-}
-.abel-regular {
-  font-family: "Abel", sans-serif;
-  font-weight: 400;
+  font-family: "Abel";
+  font-size: 96px;
   font-style: normal;
 }
 
-h1 {
-    font-family: "Abel";
-    font-size: 80px;
-    font-style: normal;
+h2 {
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+}
+
+.normal-text {
+  font-family: Abel;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.bigger-text {
+  font-family: Abel;
+  font-size: 40px;
+  font-style: normal;
 }
