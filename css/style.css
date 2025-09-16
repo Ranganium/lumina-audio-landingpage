@@ -27,3 +27,21 @@ h2 {
   font-size: 40px;
   font-style: normal;
 }
+
+/* Navigationsbar styling */
+.nav-bar {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 8px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  background-color: transparent;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: var(--logo-pink-color);
+}
