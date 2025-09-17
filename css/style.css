@@ -6,7 +6,7 @@
 /* Typografier */
 h1 {
   font-family: "Abel";
-  font-size: 96px;
+  font-size: 70px;
   font-style: normal;
 }
 
@@ -50,7 +50,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background: linear-gradient(to bottom, var(--logo-pink-color),transparent);
+  background: linear-gradient(to bottom, var(--havre-color),transparent);
   z-index: 1000;
 }
 
@@ -93,4 +93,90 @@ body {
   width: 24px;
   height: 24px;
   aspect-ratio: 1/1;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* HERO-section */
+  /* overskrift */
+.hero-text {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;  /* så alt kommer overn på hinanden */
+  align-items: center;  /* alt er centrere is flex-box-containeren */
+  z-index: 10;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-160%);
+}
+
+.lumina-one-icon {
+  max-width: 170px;
+  margin-bottom: -50px;
+}
+
+.line1 {
+  display: inline-block;
+  margin-right: 190px; /*forskyder første linje*/
+}
+
+.line2 {
+  display: inline-block;
+}
+  /* Hero-baggrund */
+.hero-image {
+  margin: 0;
+  width: 950px;
+  position: relative;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  transform: translate(-50%,-10%);
+}
+
+.cta {
+  position: absolute;
+  bottom: 50px;
+  z-index: 10;
+  text-align: center;
+}
+
+  /* Gradiants */
+.left-hero-gradiant,.right-hero-gradiant,.top-hero-gradiant {
+  position: absolute;
+  z-index: 2;
+}
+
+.left-hero-gradiant {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 15.38%, #D7D7D7 51.92%, #FBF3F3 100%);
+  width: 489px;
+  height: 1024px;
+  left: 0;
+}
+
+.right-hero-gradiant {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 0%, #DBDBDB 58.65%, #FFFAFA 100%);
+  width: 586px;
+  height: 1024px;
+  right: 0;
+}
+
+.top-hero-gradiant {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.91) 51.92%, rgba(255, 255, 255, 0.79) 100%);
+  width: 100%;
+  height: 472px;
+  top: 0;
+  z-index: 3;
 }
