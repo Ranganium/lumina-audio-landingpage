@@ -18,7 +18,7 @@ h2 {
 
 .normal-text {
   font-family: Abel;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
 }
 
@@ -34,6 +34,8 @@ h2 {
 
 body {
   margin: 0;
+  margin-left: 40px;
+  margin-right: 40px;
   padding-top: 80px;
 }
 
@@ -137,7 +139,7 @@ body {
   /* Hero-baggrund */
 .hero-image {
   margin: 0;
-  width: 950px;
+  width: 1200px;
   position: relative;
   z-index: 5;
   top: 50%;
@@ -147,10 +149,26 @@ body {
 }
 
 .cta {
+  left: 81%;
   position: absolute;
-  bottom: 50px;
+  bottom: 300px;
   z-index: 10;
   text-align: center;
+  font-size: 2rem;
+}
+
+.koebnu {
+  position: absolute;
+  bottom: 250px;
+  left: 80%;
+  z-index: 10;
+  padding: 20px 30px;
+  background:  black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  font-family: Abel, sans-serif;
 }
 
   /* Gradiants */
@@ -179,4 +197,150 @@ body {
   height: 472px;
   top: 0;
   z-index: 3;
+}
+
+/* Produkt */
+.produkt-container {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.headline {
+  font-family: 'Lato', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.subtext {
+  font-family: 'abel', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+.farve-modeller {
+    text-align: center;
+    margin-top: 40px;
+}
+.farve-modeller img {
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.farve-tekster {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; 
+    max-width: 1300px;
+    margin: 1.5rem auto 0 auto;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-family: 'abel', sans-serif;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+.farve-tekster span {
+    flex: 1;
+    text-align: center;
+}
+
+/* Funktioner */
+.funktion-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.left img,.right img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+p {
+  white-space: pre-line;
+  margin-top: 10px;
+}
+
+/* Om Os */
+.header-omos {
+    background-color: #fffaf4;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.header-omos h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.subtext-omos {
+    max-width: 500px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #222;
+}
+
+.image-bad {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.image-bad img {
+    width: 500px;
+    height: 500px;
+    background: #fffaf4;
+}
+
+.omos-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+}
+
+
+
+
+/* Footer stuff */
+.footer {
+    background-color: #FFF9F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    margin-top: auto; /* Skubber footeren ned til bunden */
+}
+
+#logo img
+{height: 100px;
+width: auto;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
 }

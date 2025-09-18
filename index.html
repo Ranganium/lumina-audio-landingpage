@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,19 +17,19 @@
         <nav class="nav-bar">
             <!-- Venstre side -->
             <div class="left-nav">
-                <a class="nav-icon" href="#hero-section">
-                    <img class="nav-icon" src="img/Lumina audio.png">
+                <a class="nav-icon" href=".hero-section">
+                    <img class="nav-icon" src="img/Lumina audio.png" alt="LUMINA Audio">
                 </a>
                 <ul class="links">
-                    <li><a class="nav-hover" href="#produkt-section">Produkt</a></li>
-                    <li><a class="nav-hover" href="#funktioner-section">Funktioner</a></li>
-                    <li><a class="nav-hover" href="#om-os-section">Om Os</a></li>
+                    <li><a class="nav-hover" href=".produkt-section">Produkt</a></li>
+                    <li><a class="nav-hover" href=".funktioner-section">Funktioner</a></li>
+                    <li><a class="nav-hover" href=".om-os-section">Om Os</a></li>
                 </ul>
             </div>
             <!-- Højre side -->
             <div class="right-nav">
                 <a href="buy.html">
-                    <img class="shopping-bag-icon" src="img/shopping bag.svg"></a>
+                    <img class="shopping-bag-icon" src="img/shopping bag.svg" alt="kurven"></a>
             </div>
         </nav>
     </header>
@@ -45,17 +45,87 @@
                     <span class="line2">to Your Sound</span>
                 </h1>
             </div>
-            <img class="hero-image" src="img/Hero.png" alt="Lumina-ONE">
-            <div class="cta">
-                    <p>1995,-</p>
-                <button>
-                    Køb Nu
-                    </button>
+            <div class="hero-image-container">
+                <div class="hero-image-wrapper">
+                    <img class="hero-image" src="img/Hero.png" alt="Lumina-ONE">
+                    <figure class="left-hero-gradiant"></figure>
+                    <figure class="right-hero-gradiant"></figure>
+                    <figure class="top-hero-gradiant"></figure>
                 </div>
-            <figure class="left-hero-gradiant"></figure>
-            <figure class="right-hero-gradiant"></figure>
-            <figure class="top-hero-gradiant"></figure>
-         </div>
-     </article>
+            <button class="koebnu">Køb Nu</button>
+            </div>
+            <div class="cta">
+                <p>1995,-</p>
+            </div>
+        </div>
+    </article>
+     <main>
+
+        <!-- produkt -->
+         <div class="produkt-section" class="produkt-container">
+            <div class="headline">Din farve. Din stil</div>
+            <div class="subtext">
+                Vælg lige den farve, der passer lige præcis til din stil.<br>
+                Valg mellem æstetiske farver, som Dusty Rose, Lavender Mist, Sage Green og Moonlight White.
+            </div>
+            <div class="farve-modeller">
+                <img src="img/farvemodeller.png" alt="Farvemodeller"> 
+        
+            </div>
+            <div class="farve-tekster">
+                <span>Dusty Rose</span>
+                <span>Lavender Mist</span>
+                <span>Sage Green</span>
+                <span>Moonlight White</span>
+            </div>
+        </div>
+
+        <!-- Funktioner -->
+        <div class="funktioner-section" class="funktion-container">
+        <div class="left">
+            <img src="img/connect.png" alt="connect">
+            <p class="bigger-text" class="detaljer">
+                Lydstyrke: Op til 100 dB – perfekt til strandfester og picnics uden at blive for meget
+                Lysstemning: Integreret ambient-lys med “chill”, “party” og “sunset” modes
+                Vægt: Kun 4,5 kg – let at tage med i hånden eller i den medfølgende stof-tote bag
+                Batteritid: Op til 18 timers spilletid, oplades via USB-C
+                Tilslutning: Bluetooth 5.3, AUX-indgang og mulighed for at parre op til 3 andre LUMINA One-enheder
+                Social Connect: Blend din playliste med venners via app’en – perfekt til fællesfester
+                Vandafvisning: IPX5 – tåler regn og pool-splash
+            </p>
+        </div>
+            <div class="right">
+                <img src="img/room.png" alt="speaker in room">
+                <img src="img/speaker.png" alt="waterproof speaker">
+            </div>
+        </div>
+
+        <!-- OM OS -->
+        <div class="om-os-section" class="omos-flex-container">
+            <div class="image-bad">
+                <img src="img/bad.png" alt="LUMINA-Audio">
+            </div>
+            <div class="subtext-omos">
+                <h2 class="header-omos">Om LUMINA Audio</h2>
+                <p>Hos LUMINA Audio tror vi på, at lyd skal være mere end bare noget, du hører. det skal være noget, du føler og deler. Vores højttalere er skabt til dig, der elsker musik, stemning og de små øjeblikke, der bliver til store minder.<br>Vi designer lyd, der passer til dit liv: fra pigeaftener med dans i stuen til festivalweekender, picnicdates i parken eller stille solnedgangsyoga på stranden. Vores højttalere kombinerer kraftfuld lyd med et nordisk, minimalistisk design, så de er lige så smukke at se på, som de er at lytte til.<br>Fællesskab, frihed og funktionalitet, det er kernen i alt, vi laver. Hos LUMINA Audio får du en højttaler, der ikke bare spiller musik, men også skaber stemningen, samler mennesker og følger dig, uanset hvor du er på vej hen.<br>Lyd, du kan føle. Design, du kan vise frem.</p>
+            </div>
+        </div>
+     </main>
+
+     <!-- Footer -->
+     <footer>
+        <div class="footer">
+        <div id="logo">
+            <img src="img/logo.png" alt="logo">
+        </div> 
+        <div class="footer-links">
+            <a href="#">Kontakt</a>
+            <a href="#">Sociale medier</a>
+            <a href="#">FAQ</a>
+            <a href="#">Support</a>
+            <a href="#">Retur</a>
+        </div>   
+        </div>
+     </footer>
 </body>
 </html>
