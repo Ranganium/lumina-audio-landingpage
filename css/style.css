@@ -12,7 +12,7 @@ h1 {
 
 h2 {
   font-family: Lato;
-  font-size: 80px;
+  font-size: 60px;
   font-style: normal;
 }
 
@@ -24,7 +24,7 @@ h2 {
 
 .bigger-text {
   font-family: Abel;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
 }
 
@@ -260,11 +260,20 @@ body {
 }
 
 .left img,.right img {
-  width: 100%;
+  width: 95%;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
+.left {
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+
+.right {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
 p {
   white-space: pre-line;
   margin-top: 10px;
@@ -293,7 +302,6 @@ p {
 
 .image-bad {
     text-align: center;
-    margin: 20px;
     display: flex;
     width: 700px;
     height: 700px;
@@ -302,9 +310,9 @@ p {
     }
 
 .image-bad img {
-    width: 500px;
-    height: 500px;
-    background: #fffaf4;
+    width: 700px;
+    height: 700px;
+    margin-right: 80px;
 }
 
 .omos-flex-container {
